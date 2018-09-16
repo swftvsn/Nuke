@@ -1,3 +1,10 @@
+## Nuke 7.4
+
+Updated for Xcode 10 GM.
+
+- Improved support for Xcode 10 and Swift 4.2
+- Remove `enableExperimentalAggressiveDiskCaching`, please use  `DataCache` directly instead
+
 ## Nuke 7.3.2
 
 - #178 Fix TSan warning being triggered by performance optimization in `ImageTask.cancel()` (false positive)
